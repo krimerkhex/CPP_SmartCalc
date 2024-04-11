@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Project passport</title>
+</head>
+<body content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <h1>SMART CALC</h1>
+        <div>
+            <h2>Общее введение</h2>
+                <div id="introduction">
+                    <p>Функционал данного калькулятора маштабен, он работает как стандартный калькулятор.<br>
+                    В случае, если в формуле есть <code>'_x_'</code> он строит его график на заданном диапазоне<br>
+                    Также реализован функционал кредитного и депозитного калькуляторов.
+                    
+                    </p>
+                </div>
+            <h3>Функционал калькулятора</h3>
+                <div id="calc_func">
+                    <p>Вычисление суммы <code>'_+_'</code><br>
+                    Вычисление разности <code>'_-_'</code><br>
+                    Вычисление умножения <code>'_*_'</code><br>
+                    Вычисление деления <code>'_/_'</code><br>
+                    Вычисление остатка от деления <code>'_mod_'</code><br>
+                    Вычисление корня <code>'_sqrt_'</code><br>
+                    Возведение в степень <code>'_^_'</code><br>
+                    Вычисление логарифма <code>'_log_'</code><br>
+                    Вычисление натурального логарифма <code>'_ln_'</code><br>
+                    Вычисление синуса <code>'_sin_'</code><br>
+                    Вычисление косинуса <code>'_cos_'</code><br>
+                    Вычисление тангенса <code>'_tan_'</code><br>
+                    Вычисление арксинус(функция обратная синуса) <code>'_asin_'</code><br>
+                    Вычисление арккосинуса(функция обратная косинуса) <code>'_acos_'</code><br>
+                    Вычисление арктангенс(функция обратная тангенса) <code>'_atan_'</code><br>
+                    Вычисление выражения с X и построение графика<code>'_x_'</code><br>
+                    </p>
+                </div>
+            <h3>Функционал кредитного калькулятора</h3>
+                <div id="cred_func">
+                    <p>Вычисляет:<br>
+                    &nbsp;&DownRightVectorBar;&nbsp; Общей выплаты<br>
+                    &nbsp;&DownRightVectorBar;&nbsp; Переплаты по кредиту<br>
+                    &nbsp;&DownRightVectorBar;&nbsp; Ежемесячного платежа<br>
+
+                    На основе данных о:<br>
+                    &nbsp;&DownRightVectorBar;&nbsp; Сумме кредита/займа<br>
+                    &nbsp;&DownRightVectorBar;&nbsp; Процентной ставки<br>
+                    &nbsp;&DownRightVectorBar;&nbsp; Срока кредита/займа (год|месяц)<br>
+                    &nbsp;&DownRightVectorBar;&nbsp; Дате выдачи (ГГГГ:ММ:ДД)<br>
+                    &nbsp;&DownRightVectorBar;&nbsp; Порядке погашения (Аннуитентый|Дифференуированный)<br>
+                </p>
+            </div>
+            <h3>Функционал депозитного калькулятора</h3>
+                <div id="depoz_func">
+                    <p>Вычисляет:<br>
+                       &nbsp;&DownRightVectorBar;&nbsp; Сумму на вкладе в конце срока<br>
+                       &nbsp;&DownRightVectorBar;&nbsp; Начисленные проценты<br>
+                       &nbsp;&DownRightVectorBar;&nbsp; Сумму налога<br>
+
+                       На основе данных о:<br>
+                       &nbsp;&DownRightVectorBar;&nbsp; Сумме вклада<br>
+                       &nbsp;&DownRightVectorBar;&nbsp; Сроке размещения вклада (год|месяц)<br>
+                       &nbsp;&DownRightVectorBar;&nbsp; Процентой ставки<br>
+                       &nbsp;&DownRightVectorBar;&nbsp; Налоговой ставки<br>
+                       &nbsp;&DownRightVectorBar;&nbsp; Периодичности выплатах<br>
+                       &nbsp;&DownRightVectorBar;&nbsp; Капитализации процента<br>
+                       &nbsp;&DownRightVectorBar;&nbsp; Дате открытия вклада<br>
+                       &nbsp;&DownRightVectorBar;&nbsp; Снитии или пополнении на вклад<br>
+                    </p>
+                </div>
+            <h3>Make targets</h3>
+                <div id="make_targ">
+                    <p>Таrgets:<br>
+                    &nbsp;&DownRightVectorBar;&nbsp; all - запуск калькулятора и открытие исполняемого объекта<br>
+                    &nbsp;&DownRightVectorBar;&nbsp; install - таргет для начала работы с калькулятором<br>
+                    &nbsp;&DownRightVectorBar;&nbsp; unistall - таргет для удаления программы<br>
+                    &nbsp;&DownRightVectorBar;&nbsp; clean - очистка "мусорных" файлов<br>
+                    &nbsp;&DownRightVectorBar;&nbsp; dvi - вывод паспорта проекта<br>
+                    &nbsp;&DownRightVectorBar;&nbsp; dist - таргет для сборки QT<br>
+                    &nbsp;&DownRightVectorBar;&nbsp; test - таргет проверки backend-а с помощью unit_test.c<br>
+                    &nbsp;&DownRightVectorBar;&nbsp; gcov_report - отображение покрытия backend-а unit тестами<br>
+                </p>
+                </div>
+        </div>
+</body>
+</html>

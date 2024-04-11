@@ -1,0 +1,152 @@
+body {
+    min-width: 600px;
+    min-height: 800px;
+    max-width: 600px;
+    max-height: 800px;
+    resize: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+
+}
+
+#introduction {
+    text-align: center;
+
+}
+
+#calc_func {
+    webkit-column-width: 200px;
+    -moz-column-width: 200px;
+    column-width: 200px;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 2;
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+    -webkit-column-rule: 1px solid #ccc;
+    -moz-column-rule: 1px solid #ccc;
+    column-rule: 1px solid #ccc;
+}
+
+#cred_func {
+    webkit-column-width: 200px;
+    -moz-column-width: 200px;
+    column-width: 200px;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 2;
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+    -webkit-column-rule: 1px solid #ccc;
+    -moz-column-rule: 1px solid #ccc;
+    column-rule: 1px solid #ccc;
+}
+
+#depoz_func {
+    webkit-column-width: 200px;
+    -moz-column-width: 200px;
+    column-width: 200px;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count:2;
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+    -webkit-column-rule: 1px solid #ccc;
+    -moz-column-rule: 1px solid #ccc;
+    column-rule: 1px solid #ccc;
+}
+
+#make_targ {
+    webkit-column-width: 200px;
+    -moz-column-width: 200px;
+    column-width: 200px;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 2;
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+    -webkit-column-rule: 1px solid #ccc;
+    -moz-column-rule: 1px solid #ccc;
+    column-rule: 1px solid #ccc;
+}
+/*
+#view {
+    min-width: 250px;
+    min-height: 350px;
+    max-width: 1000px;
+    max-height: 1200px;
+    height: 30vh;
+    width: 25vw;
+    padding: 2%;
+    background-color: aqua;
+}
+
+p {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    border: 0%;
+    padding: 0%;
+    margin: 0.1%;
+}
+
+#formul_field {
+    background: white;
+    width: 16.8vw;
+    height: 5vh;
+    min-height: 50px;
+    max-height: 200px;
+    max-width: 680px;
+    min-width: 170px;
+    border: 0%;
+    padding: 0%;
+    margin: 0.1%;
+    border-radius: 0.5%;
+    
+}
+
+#clear_button {
+    color: white;
+    background-color: red;
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 200px;
+    max-height: 200px;
+    width: 5vw;
+    height: 5vh;
+    margin: 0.1%;
+    border: 0%;
+    padding: 0%;
+    border-radius: 5px;
+    text-align: center
+}
+
+#buttons {
+    color: black;
+    background-color: white;
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 200px;
+    max-height: 200px;
+    width: 5vw;
+    height: 5vh;
+    margin: 0.1%;
+    border: 0%;
+    padding: 0%;
+    border-radius: 5px;
+    text-align: center
+}
+*/
